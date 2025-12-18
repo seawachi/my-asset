@@ -4,6 +4,8 @@ Calculate FIFO cost basis and portfolio performance from CSV data
 Expected CSV format:
 Symbol,amount share,Price USD,Status,Total Pay USD,Total Fee USD,Date
 
+Status: "BUY" | "SELL" | "TAX-FEE" | "DIVIDEND"
+
 First, run the development server:
 
 ```bash
